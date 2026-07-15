@@ -1,9 +1,9 @@
 {
-  "name": "vekant-ecommerce",
+  "name": "th-ecommerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://wlidemberg.github.io/vekant-ecommerce/",
+  "homepage": "https://wlidemberg.github.io/th-ecommerce/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",

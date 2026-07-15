@@ -43,7 +43,7 @@ Este projeto de e-commerce foi **desenvolvido por mim utilizando técnicas avan�
 1. **Clone o repositório**:
    ```bash
    git clone <URL_DO_SEU_REPOSITORIO>
-   cd vekant-ecommerce
+   cd th-ecommerce
    ```
 
 2. **Instale as dependências**:
