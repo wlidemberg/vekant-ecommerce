@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-black text-white pt-16 pb-8 border-t border-zinc-900">
       <div className="max-w-7xl mx-auto px-6 space-y-16">
         
-        {/* Selos de Confiança / Diferenciais Vekant */}
+        {/* Selos de Confiança / Diferenciais TH Fitness */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-zinc-900 pb-12 text-center md:text-left">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
             <Truck className="h-6 w-6 text-zinc-400 stroke-1 flex-shrink-0" />
@@ -52,19 +52,19 @@ export const Footer: React.FC = () => {
         {/* Links Principais & Newsletter */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           
-          {/* Vekant Marca */}
+          {/* TH Fitness Marca */}
           <div className="space-y-4">
-            <h3 className="text-sm font-bold tracking-[0.3em] uppercase">VEKANT</h3>
+            <h3 className="text-sm font-bold tracking-[0.3em] uppercase">TH FITNESS</h3>
             <p className="text-[11px] text-zinc-400 font-light leading-relaxed">
               Sofisticação, alta performance e design minimalista em moda fitness. Criada para quem exige tecnologia de ponta sem abrir mão do estilo.
             </p>
             <div className="flex items-center space-x-4 pt-2">
               <a
-                href="https://www.instagram.com/usevekant/"
+                href="https://www.instagram.com/thfitness/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-zinc-400 hover:text-white transition-colors p-1"
-                aria-label="Instagram Vekant"
+                aria-label="Instagram TH Fitness"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ export const Footer: React.FC = () => {
               <li><a href="#" className="hover:text-white transition-colors">Quem Somos</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Tecnologia Emana®</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Guia de Tamanhos</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Parcerias e Vekant Club</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Parcerias e TH Fitness Club</a></li>
             </ul>
           </div>
 
@@ -112,12 +112,12 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <h4 className="text-xs uppercase tracking-widest font-semibold">Newsletter</h4>
             <p className="text-[11px] text-zinc-400 font-light leading-relaxed">
-              Inscreva-se para receber convites para lançamentos e acesso antecipado às novas coleções Vekant.
+              Inscreva-se para receber convites para lançamentos e acesso antecipado às novas coleções TH Fitness.
             </p>
 
             {subscribed ? (
               <p className="text-[11px] text-green-400 font-medium animate-fade-in">
-                Inscrição realizada com sucesso. Bem-vindo(a) ao universo Vekant.
+                Inscrição realizada com sucesso. Bem-vindo(a) ao universo TH Fitness.
               </p>
             ) : (
               <form onSubmit={handleSubscribe} className="relative flex items-center border-b border-zinc-800 pb-2">
@@ -145,7 +145,7 @@ export const Footer: React.FC = () => {
         {/* Rodapé Final */}
         <div className="border-t border-zinc-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] text-zinc-500 font-light">
           <div>
-            © {new Date().getFullYear()} VEKANT MODA FITNESS. Todos os direitos reservados.
+            © {new Date().getFullYear()} TH FITNESS. Todos os direitos reservados.
           </div>
           
           {/* Métodos de Pagamento Simulados */}

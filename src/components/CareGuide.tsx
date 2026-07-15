@@ -31,7 +31,7 @@ export const CareGuide: React.FC = () => {
       id: 'cloro',
       title: 'Sem Cloro ou Alvejante',
       shortDesc: 'Evita a degradação precoce e manchas.',
-      fullDesc: 'O cloro e os alvejantes químicos atacam diretamente o elastano e destroem as fibras elásticas, reduzindo drasticamente a vida útil do seu conjunto Vekant. Além disso, causam manchas e desbotamento acelerado. Use sabão neutro ou suave.',
+      fullDesc: 'O cloro e os alvejantes químicos atacam diretamente o elastano e destroem as fibras elásticas, reduzindo drasticamente a vida útil do seu conjunto TH Fitness. Além disso, causam manchas e desbotamento acelerado. Use sabão neutro ou suave.',
       icon: Ban,
     },
     {
@@ -45,7 +45,7 @@ export const CareGuide: React.FC = () => {
       id: 'calor',
       title: 'Evite Secadora e Ferro',
       shortDesc: 'Protege contra danos térmicos irreversíveis.',
-      fullDesc: 'O calor extremo da secadora encolhe o tecido e danifica o elastano, tirando a elasticidade da peça. Já o ferro de passar pode derreter ou queimar as fibras de poliamida. Os tecidos Vekant possuem tecnologia de secagem rápida e não amassam.',
+      fullDesc: 'O calor extremo da secadora encolhe o tecido e danifica o elastano, tirando a elasticidade da peça. Já o ferro de passar pode derreter ou queimar as fibras de poliamida. Os tecidos TH Fitness possuem tecnologia de secagem rápida e não amassam.',
       icon: Flame,
     },
   ];
@@ -68,7 +68,7 @@ export const CareGuide: React.FC = () => {
             Guia de Durabilidade
           </span>
           <h2 className="text-2xl md:text-3xl font-light tracking-widest uppercase text-black">
-            Manual de Cuidados Vekant
+            Manual de Cuidados TH Fitness
           </h2>
           <p className="text-xs md:text-sm text-zinc-500 font-light max-w-xl mx-auto leading-relaxed">
             Nossos tecidos são tecnológicos e de altíssima qualidade. Siga este manual simples para preservar a performance e a elegância de suas peças por anos.
@@ -134,7 +134,7 @@ export const CareGuide: React.FC = () => {
             Fio Inteligente Emana & Lycra
           </span>
           <p className="text-xs text-zinc-600 font-light leading-relaxed">
-            As peças Vekant não necessitam de ferro de passar. Pendurar a roupa úmida em um cabide à sombra fará com que ela seque naturalmente lisa e pronta para o uso.
+            As peças TH Fitness não necessitam de ferro de passar. Pendurar a roupa úmida em um cabide à sombra fará com que ela seque naturalmente lisa e pronta para o uso.
           </p>
         </div>
 

@@ -133,7 +133,7 @@ export const products: Product[] = [
   },
   {
     id: 'garrafa-termica-hydro',
-    name: 'Squizee Térmico Hydro Vekant',
+    name: 'Squizee Térmico Hydro TH Fitness',
     price: 119.90,
     category: 'acessorios',
     image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=600&auto=format&fit=crop',
@@ -167,12 +167,12 @@ export const products: Product[] = [
   },
   {
     id: 'bolsa-tote-gym',
-    name: 'Bolsa Tote Vekant Gym',
+    name: 'Bolsa Tote TH Fitness Gym',
     price: 189.90,
     category: 'acessorios',
     image: 'https://images.unsplash.com/photo-1547949003-9792a18a2601?q=80&w=600&auto=format&fit=crop',
     hoverImage: 'https://images.unsplash.com/photo-1512201066735-b5a6c810d936?q=80&w=600&auto=format&fit=crop',
-    description: 'A parceira perfeita para o dia a dia. Com compartimentos inteligentes para roupas úmidas, calçados e garrafa, esta bolsa combina a estética minimalista da Vekant com alta funcionalidade.',
+    description: 'A parceira perfeita para o dia a dia. Com compartimentos inteligentes para roupas úmidas, calçados e garrafa, esta bolsa combina a estética minimalista da TH Fitness com alta funcionalidade.',
     features: [
       'Tecido oxford impermeável e de alta durabilidade',
       'Compartimento isolado para calçados',

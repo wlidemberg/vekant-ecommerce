@@ -1,6 +1,6 @@
-# Vekant - E-commerce de Moda Fitness Premium
+# TH Fitness - E-commerce de Moda Fitness Premium
 
-Este projeto de e-commerce foi **desenvolvido por mim utilizando técnicas avançadas de design responsivo**, garantindo uma navegação fluida, intuitiva e esteticamente premium em qualquer tamanho de tela (mobile, tablets e desktops). A **Vekant** é uma plataforma dedicada exclusivamente à moda fitness feminina e acessórios esportivos de alta performance.
+Este projeto de e-commerce foi **desenvolvido por mim utilizando técnicas avançadas de design responsivo**, garantindo uma navegação fluida, intuitiva e esteticamente premium em qualquer tamanho de tela (mobile, tablets e desktops). A **TH Fitness** é uma plataforma dedicada exclusivamente à moda fitness feminina e acessórios esportivos de alta performance.
 
 ---
 

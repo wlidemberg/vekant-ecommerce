@@ -124,7 +124,7 @@ export const Header: React.FC<HeaderProps> = ({
               }}
               className="text-lg md:text-xl font-bold tracking-[0.35em] uppercase select-none transition-opacity hover:opacity-85"
             >
-              VEKANT
+              TH FITNESS
             </a>
           </div>
 
@@ -141,7 +141,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* Conta (Simulada) */}
             <button
-              onClick={() => alert('Área do Cliente (Simulada) - Vekant Club')}
+              onClick={() => alert('Área do Cliente (Simulada) - TH Fitness Club')}
               className="hidden sm:block p-1 hover:opacity-75 transition-opacity cursor-pointer"
               aria-label="Minha conta"
             >
@@ -181,7 +181,7 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <div className="space-y-6">
             <div className="flex items-center justify-between">
-              <span className="text-sm font-bold tracking-[0.2em] uppercase">VEKANT</span>
+              <span className="text-sm font-bold tracking-[0.2em] uppercase">TH FITNESS</span>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="p-1 hover:bg-zinc-100 rounded-full transition-colors cursor-pointer"
@@ -236,7 +236,7 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Minha Conta</span>
             </button>
             <div className="text-[10px] text-zinc-400 font-light pt-2">
-              © Vekant Moda Fitness
+              © TH Fitness
             </div>
           </div>
         </div>

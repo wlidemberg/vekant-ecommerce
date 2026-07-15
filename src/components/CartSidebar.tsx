@@ -154,7 +154,7 @@ export const CartSidebar: React.FC<CartSidebarProps> = ({
             <div className="space-y-2 w-full">
               <h3 className="text-lg font-medium uppercase tracking-widest text-black">Pedido Confirmado!</h3>
               <p className="text-xs text-zinc-500 font-light max-w-xs mx-auto">
-                Parabéns pela sua escolha. Seu pedido de simulação na **Vekant** está sendo processado.
+                Parabéns pela sua escolha. Seu pedido de simulação na **TH Fitness** está sendo processado.
               </p>
               
               {/* Detalhes da Compra Simulada */}

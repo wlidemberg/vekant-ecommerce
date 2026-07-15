@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1600&auto=format&fit=crop"
-          alt="Vekant Lifestyle Fitness"
+          alt="TH Fitness Lifestyle"
           className="h-full w-full object-cover object-center opacity-65 scale-105 animate-[pulse_8s_infinite_alternate]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/40" />
