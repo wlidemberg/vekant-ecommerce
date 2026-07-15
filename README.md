@@ -1,40 +1,46 @@
 # Vekant - E-commerce de Moda Fitness Premium
 
-A **Vekant** é uma plataforma moderna e responsiva de e-commerce dedicada exclusivamente à moda fitness premium feminina e acessórios esportivos de alta performance. O projeto foi estruturado com foco em estética minimalista, transições fluidas (micro-animações) e uma experiência de checkout simulada de alta eficiência.
+Este projeto de e-commerce foi **desenvolvido por mim utilizando técnicas avançadas de design responsivo**, garantindo uma navegação fluida, intuitiva e esteticamente premium em qualquer tamanho de tela (mobile, tablets e desktops). A **Vekant** é uma plataforma dedicada exclusivamente à moda fitness feminina e acessórios esportivos de alta performance.
+
+---
+
+## 🎨 Soluções de Design Responsivo Aplicadas
+
+- **Layout Fluido e Flexbox/Grid**: Utilização de CSS Grid e Flexbox para que o catálogo de produtos e os elementos de interface se adaptem perfeitamente ao viewport do dispositivo, reordenando-se de forma natural e sem quebras de layout.
+- **Prevenção de Colisões no Header**: Estruturação de cabeçalho responsivo que oculta dinamicamente o menu principal em telas menores (movendo-o para um menu hambúrguer com Drawer lateral) e reorganiza os elementos flexíveis no desktop para evitar a sobreposição de menus com a marca central.
+- **Sacola de Compras Adaptativa (Drawer)**: Sacola lateral interativa projetada para preencher 100% da tela em dispositivos móveis ou manter-se como painel elegante à direita em telas maiores, com áreas internas de rolagem isolada para facilitar a navegação em telas de toque.
 
 ---
 
 ## 🚀 Funcionalidades Principais
 
-- **Catálogo Exclusivo Feminino**: Roupas e acessórios categorizados estrategicamente:
-  - **Tops**: Suporte e sustentação de alto impacto.
-  - **Leggings & Shorts**: Modelagem anatômica com tecnologia blackout.
-  - **Macacões & Bermudas**: Peças únicas e modelos ciclistas de média/alta compressão.
+- **Catálogo Exclusivo Feminino**: Organizado estrategicamente em categorias:
+  - **Tops**: Alta sustentação e design esportivo premium.
+  - **Leggings & Shorts**: Tecnologia blackout e tecidos tecnológicos para máximo conforto.
+  - **Macacões & Bermudas**: Peças únicas de modelagem anatômica e bermudas estilo ciclista.
   - **Acessórios**: Squeezes térmicos em inox, mochilas e bolsas utilitárias para academia.
-- **Design Premium e Responsivo**: Layout limpo, com transições suaves de hover, galeria de imagens dinâmicas (com visualizações alternativas no hover) e estrutura adaptada para qualquer dispositivo (mobile, tablet e desktop) livre de sobreposição de elementos.
-- **Sacola de Compras Interativa (Cart Sidebar)**:
-  - **Barra de Progresso de Frete Grátis**: Informa visualmente quanto falta para atingir o benefício (regra de frete grátis a partir de R$ 399,00).
-  - **Simulador de Frete**: Input com máscara automática de CEP (`00000-000`) para simular prazos e valores de envio (PAC vs. SEDEX). O valor é adicionado em tempo real ao total estimado.
-  - **Simulador de Pagamentos**: Permite que o cliente simule compras no **Pix (com 5% de desconto)**, **Cartão de Crédito (em até 10x sem juros)** ou **Boleto Bancário**, atualizando as parcelas e os totais instantaneamente.
-  - **Resumo de Confirmação**: Exibe um resumo detalhado e transparente com a forma de pagamento selecionada, prazo de entrega e valores finais aplicados.
+- **Galeria com Efeito Hover**: Exibição interativa que revela detalhes da peça com imagens alternativas ao passar o mouse.
+- **Sacola Interativa com Simuladores**:
+  - **Barra de Progresso para Frete Grátis**: Calcula dinamicamente o valor restante para atingir o benefício (frete grátis acima de R$ 399,00).
+  - **Simulador de Frete**: Input de CEP que calcula e adiciona instantaneamente o valor de envio (opções PAC e SEDEX) ao total geral.
+  - **Simulador de Formas de Pagamento**: Atualiza os totais e parcelas dinamicamente com base nas opções selecionadas (**Pix com 5% de desconto**, **Cartão de Crédito em até 10x sem juros** ou **Boleto Bancário**).
+  - **Confirmação Detalhada**: Tela de sucesso que exibe o resumo completo da simulação de compra realizada (forma de pagamento, prazo estimado de entrega e total pago).
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-O projeto foi construído utilizando as ferramentas mais modernas do ecossistema front-end:
-
-- **React 19** – Biblioteca para construção de interfaces SPA reativas e modulares.
-- **TypeScript** – Tipagem estática para maior robustez, autocomplete e prevenção de erros em tempo de desenvolvimento.
-- **Vite** – Bundler de última geração com HMR (Hot Module Replacement) ultrarrápido para desenvolvimento ágil.
-- **Tailwind CSS** – Framework utilitário de CSS para estilização rápida, consistente e design responsivo fluido.
+- **React 19** – Para construção de interfaces dinâmicas em componentes modulares.
+- **TypeScript** – Garantia de tipagem estática e segurança do código em tempo de execução.
+- **Vite** – Bundler de última geração com inicialização e HMR instantâneos.
+- **Tailwind CSS** – Framework utilitário de CSS focado em design eficiente e responsivo.
 - **Lucide React** – Conjunto de ícones vetoriais modernos e minimalistas.
 
 ---
 
 ## 📦 Como Executar o Projeto Localmente
 
-1. **Clone o repositório** (após criar no seu GitHub):
+1. **Clone o repositório**:
    ```bash
    git clone <URL_DO_SEU_REPOSITORIO>
    cd vekant-ecommerce
@@ -55,16 +61,3 @@ O projeto foi construído utilizando as ferramentas mais modernas do ecossistema
    ```bash
    npm run build
    ```
-
----
-
-## 📂 Estrutura do Código
-
-```yaml
-src/
-├── components/          # Componentes modulares (Header, Hero, ProductGrid, CartSidebar, CareGuide, etc.)
-├── data/                # Banco de dados simulado local (produtos estruturados e tipados)
-├── assets/              # Elementos estáticos e imagens locais
-├── App.tsx              # Componente central e gerenciador de estado do carrinho/filtros
-└── main.tsx             # Arquivo de entrada do React
-```
