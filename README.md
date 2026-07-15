@@ -61,3 +61,16 @@ Este projeto de e-commerce foi **desenvolvido por mim utilizando técnicas avan�
    ```bash
    npm run build
    ```
+
+---
+
+## 📂 Estrutura do Código
+
+```yaml
+src/
+├── components/          # Componentes modulares (Header, Hero, ProductGrid, CartSidebar, CareGuide, etc.)
+├── data/                # Banco de dados simulado local (produtos estruturados e tipados)
+├── assets/              # Elementos estáticos e imagens locais
+├── App.tsx              # Componente central e gerenciador de estado do carrinho/filtros
+└── main.tsx             # Arquivo de entrada do React
+   ```
